@@ -43,7 +43,7 @@ instantsearch.widgets.pagination({
 
 
 
-search.addWidget(
+/*search.addWidget(
 instantsearch.widgets.refinementList({
   container: '#types',
   attributeName: 'types',
@@ -63,7 +63,7 @@ instantsearch.widgets.rangeSlider({
   container: '#year',
   attributeName: 'year',
   tooltips: {
-    format: v => v && v.toLocaleString() } }));
+    format: v => v && v.toLocaleString() } }));*/
 
 
 
