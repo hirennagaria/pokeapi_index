@@ -44,7 +44,7 @@ instantsearch.widgets.pagination({
 
 
 search.addWidget(
-instantsearch.widgets.currentRefinements({
+instantsearch.widgets.refinementList({
   container: '#types',
   includedAttributes: 'types',
    }));
