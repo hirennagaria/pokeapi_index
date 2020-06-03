@@ -7,7 +7,7 @@ const search = instantsearch({
 search.addWidget(
 instantsearch.widgets.searchBox({
   container: '#search-box',
-  placeholder: 'Search for movies',
+  placeholder: 'Search for pokemons',
   autofocus: false }));
 
 
@@ -45,8 +45,8 @@ instantsearch.widgets.pagination({
 
 search.addWidget(
 instantsearch.widgets.refinementList({
-  container: '#genres',
-  attributeName: 'genre',
+  container: '#types',
+  attributeName: 'types',
   operator: 'and',
   limit: 10 }));
 
