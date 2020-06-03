@@ -46,7 +46,7 @@ instantsearch.widgets.pagination({
 search.addWidget(
 instantsearch.widgets.refinementList({
   container: '#types',
-  includedAttributes: 'types',
+  attributeName: 'types',
    }));
 
 
