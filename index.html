@@ -21,19 +21,13 @@
         </span>
       </div>
 
-      <div class="movie-rating">
-        {{#stars}}
-          <span class="ais-star-rating--star{{^.}}__empty{{/.}}">
-          </span>
-        {{/stars}}
-      </div>
 
       <div class="movie-genres">
-        {{#genre}}
+        {{#types}}
           <div class="movie-genre">
             {{.}}
           </div>
-        {{/genre}}
+        {{/types}}
       </div>
     </div>
   </article>
