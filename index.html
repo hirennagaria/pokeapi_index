@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Algolia instantsearch.js Demo</title>
+  <title>Pokemon - Gotta catch 'em all!</title>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch.min.css'>
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css'>
 <link rel="stylesheet" href="./styles.css">
@@ -21,10 +21,11 @@
         </span>
       </div>
       
-      <div class="movie-year">
-      Evolution => {{#evolutions}}
+      <div class="movie-genres">
+      Evolution - 
+      {{#evolutions}}
           <div class="movie-genre">
-            {{.}}
+            {{to}}
           </div>
         {{/evolutions}}
         
@@ -32,6 +33,7 @@
 
 
       <div class="movie-genres">
+        Pokemon type -
         {{#types}}
           <div class="movie-genre">
             {{.}}
