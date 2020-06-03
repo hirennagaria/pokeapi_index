@@ -44,11 +44,10 @@ instantsearch.widgets.pagination({
 
 
 search.addWidget(
-instantsearch.widgets.refinementList({
+instantsearch.widgets.currentRefinements({
   container: '#types',
-  attributeName: 'types',
-  operator: 'and',
-  limit: 10 }));
+  includedAttributes: 'types',
+   }));
 
 
 
