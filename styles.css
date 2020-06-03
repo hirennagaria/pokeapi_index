@@ -142,7 +142,9 @@ body {
 }
 
 .movie-year {
-  font-size: 0.8em;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.6em;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.6);
 }
