@@ -22,11 +22,14 @@
       </div>
       
       <div class="movie-year">
-      Evolution => {{#evolutions.to}}
+      <1--Evolution => {{#evolutions.to}}
           <div class="movie-genre">
             {{.}}
           </div>
-        {{/evolutions.to}}
+        {{/evolutions.to}}-->
+        <ul>
+      ${results.evolutions.map(item => `<li>${item.to}</li>`).join('')}
+    </ul>
       </div>
 
 
