@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Algolia instantsearch.js Demo</title>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
 <script id="movie" type="text/x-handlebars-template">
   <article class="movie">
     <img class="movie-image" src="{{image}}" />
@@ -5,6 +16,7 @@
       <div class="movie-title">
         {{{_highlightResult.title.value}}}
         <span class="movie-year">
+          {{year}}
         </span>
       </div>
 
@@ -62,3 +74,8 @@
     </div>
   </div>
 </div>
+<!-- partial -->
+  <script src='https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
