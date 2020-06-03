@@ -12,12 +12,12 @@
 <!-- partial:index.partial.html -->
 <script id="movie" type="text/x-handlebars-template">
   <article class="movie">
-    <img class="movie-image" src="{{image}}" />
+    <img class="movie-image" src="{{art-url}}" />
     <div class="movie-meta">
       <div class="movie-title">
         {{{_highlightResult.name.value}}}
         <span class="movie-year">
-          {{year}}
+          {{description}}
         </span>
       </div>
 
