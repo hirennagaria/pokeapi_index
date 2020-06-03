@@ -22,7 +22,11 @@
       </div>
       
       <div class="evolution">
-      Evolution => {{evolutions[0].to}}
+      Evolution => {{#evolutions}}
+          <div class="movie-genre">
+            {{evolutions.to}}
+          </div>
+        {{/evolutions}}
       </div>
 
 
