@@ -2,9 +2,10 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Pokemon Index</title>
+  <title>CodePen - Algolia instantsearch.js Demo</title>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch.min.css'>
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css'><link rel="stylesheet" href="./styles.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css'>
+<link rel="stylesheet" href="./styles.css">
 
 </head>
 <body>
@@ -14,7 +15,7 @@
     <img class="movie-image" src="{{image}}" />
     <div class="movie-meta">
       <div class="movie-title">
-        {{{_highlightResult.title.value}}}
+        {{{_highlightResult.name.value}}}
         <span class="movie-year">
           {{year}}
         </span>
